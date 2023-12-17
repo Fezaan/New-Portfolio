@@ -816,7 +816,7 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="handleSubmit()" >
+            <!-- <form name="contactForm" id="contactForm">
       			<fieldset>
 
                   <div class="form-field">
@@ -832,7 +832,7 @@
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
-                     <button class="submitform">Submit</button>
+                     <button id="submitform" class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
        				      <div class="s-loader">
@@ -844,15 +844,25 @@
                   </div>
 
       			</fieldset>
-      		</form> <!-- Form End -->
+      		</form>  -->
+			<!-- Form End -->
+			<!-- <script>
+				var name=document.getElementById("contactName");
+				var email=document.getElementById("contactEmail");
+				var sbj=document.getElementById("contactSubject");
+				var msg=document.getElementById("contactMessage");
+				document.getElementById("submitform").addEventListener("click", function(){
+
+				})
+			</script> -->
 
             <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
+            <!-- <div id="message-warning">            	
+            </div>     -->       
             <!-- contact-success -->
-      		<div id="message-success">
+      		<!-- <div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
+      		</div>  -->
 
          </div> <!-- /col-twelve -->
    		
